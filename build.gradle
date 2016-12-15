@@ -10,7 +10,6 @@ repositories {
 dependencies {
     // Junit
     compile 'junit:junit:4.4'
-    //test 'junit:junit:4.4'
 }
 
 task helloWorld(type: JavaExec) {
