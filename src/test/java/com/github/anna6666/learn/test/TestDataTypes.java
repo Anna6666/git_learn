@@ -47,4 +47,17 @@ public class TestDataTypes extends TestCase {
         System.out.println(c);
     }
 
+    public void testFloat() {
+    }
+
+    public void testLong() {
+        long x;
+        long y;
+
+        x = 28522;
+
+        y = x * x;
+
+        System.out.println("y contains " + y);
+    }
 }
