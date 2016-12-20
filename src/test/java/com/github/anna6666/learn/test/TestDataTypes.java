@@ -110,5 +110,14 @@ public class TestDataTypes extends TestCase {
         if (c >= 0) System.out.println("с не отрицательное число");
         if (c < 0) System.out.println("с отрицательное число");
     }
+
+    public void testfor() {
+        int count;
+
+        for(count = 0; count < 5; count++)
+        System.out.println("Значение счётчика:" + count);
+
+        System.out.println("Готово!!!!");
+    }
 }
 
