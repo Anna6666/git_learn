@@ -91,5 +91,24 @@ public class TestDataTypes extends TestCase {
         System.out.println("Значение х после деления: " + x);
     }
 
+    public void testif() {
+        int a, b, c;
+        a = 2;
+        b = 3;
+
+        if (a < b) System.out.println("а меньше b");
+        if (a == b) System.out.println("Я не увижу этот текст");
+
+        System.out.println();
+        c = a - b; //с значит содержит в себе значение -1
+        System.out.println("с содержит -1");
+        if (c >= 0) System.out.println("с не отрицательное число");
+        if (c < 0) System.out.println("с отрицательное число");
+        System.out.println();
+        c = b - a; //теперь с содержит 1
+        System.out.println("с содержит 1");
+        if (c >= 0) System.out.println("с не отрицательное число");
+        if (c < 0) System.out.println("с отрицательное число");
+    }
 }
 
