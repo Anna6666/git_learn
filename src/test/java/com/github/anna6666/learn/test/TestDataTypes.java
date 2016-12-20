@@ -60,4 +60,36 @@ public class TestDataTypes extends TestCase {
 
         System.out.println("y contains " + y);
     }
+
+    public void testmain() {
+        int var1; //какая-то переменная
+        int var2; //вторая переменная
+
+        var1 = 1024; //присвоили значение переменной
+
+        System.out.println("Переменная var1 содержит" + var1);
+
+        var2 = var1 / 2;
+
+        System.out.println("Преременная var2 содержит var1 / 2: ");
+        System.out.println(var2);
+    }
+
+    public void testdouble() {
+        int var; //целочисленная переменная
+        double x; //переменная с плав точкой
+
+        var = 10;
+
+        x = 10.0;
+        System.out.println("Начальное значерние переменной var: " + var);
+        System.out.println("Начальное значение переменной x: " + x);
+        System.out.println();
+        var = var / 4;
+        x = x / 4;
+        System.out.println("Значение var после деления: " + var);
+        System.out.println("Значение х после деления: " + x);
+    }
+
 }
+
